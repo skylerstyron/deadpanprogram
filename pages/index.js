@@ -18,9 +18,6 @@ export default function Home() {
         deadpanprogram
         </h1>
       </main>
-      <div className={styles.content}>
-        <p>This is some text about the program.</p>
-      </div>
     </div>
   )
 }
