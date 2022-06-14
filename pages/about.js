@@ -17,9 +17,9 @@ export default function about() {
         about
         </h1>
       </main>
-      <div className={styles.content}>
+      {/* <div className={styles.content}>
         <p>I am a program</p>
-      </div>
+      </div> */}
     </div>
     )
 }
