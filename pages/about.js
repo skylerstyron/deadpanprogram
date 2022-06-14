@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/About.module.css'
 import Nav from '../components/nav'
 
 export default function about() {
@@ -13,12 +13,12 @@ export default function about() {
       <Nav />
 
       <main className={styles.main}>
-        <h1 className={styles.title} data-text="deadpanprogram">
+        <h1 className={styles.title} data-text="about">
         about
         </h1>
       </main>
       <div className={styles.content}>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>I am a program</p>
       </div>
     </div>
     )

@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #222;
+}
+
 html,
 body {
   padding: 0;
@@ -14,13 +18,14 @@ body {
       linear-gradient(-90deg,rgba(255,255,255,.2)1px,transparent 1px)0/30px,
       linear-gradient(transparent 19px,rgba(255,255,255,.2)19px) 0/1px 20px,#222; */
 }
-html {
+
+/* html {
   background-color: #222;
 }
 
 html:before {
   animation: grain 15s steps(10) infinite;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/76/1k_Dissolve_Noise_Texture.png);
+  background-image: url('../assets/noise-webp.webp');
   content: "";
   height: 300%;
   opacity:.1;
@@ -41,7 +46,7 @@ html:before {
   80% { transform:translate(-15%,-20%)}
   90% { transform:translate(-5%,-10%)}
   100% { transform:translate(-15%,-20%)}
-}
+} */
 
 .nav {
   position: absolute;

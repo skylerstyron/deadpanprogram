@@ -12,9 +12,5 @@ const Nav = () => {
     )
 }
 
-const handleClick = event => {
-    // 👇️ toggle isActive state on click
-    setIsActive(current => !current);
-  };
 
 export default Nav;
